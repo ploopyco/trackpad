@@ -1,0 +1,13 @@
+site_name: Ploopy Trackpad
+site_url: https://ploopyco.github.io/trackpad
+theme: material
+nav:
+  - 'index.md'
+  - 'assembly-instructions.md'
+  - Appendices:
+    - 'appendices/pcbs.md'
+    - 'appendices/3d-printing.md'
+    - 'appendices/hardware.md'
+    - 'appendices/programming.md'
+    - 'appendices/debugapp.md'
+  - 'license.md'
