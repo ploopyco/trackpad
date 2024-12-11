@@ -14,7 +14,9 @@ Kits bought from the [Ploopy store](https://ploopy.co/product-category/trackpad/
 
 The firmware for the Trackpad hasn't been merged into QMK at the time of this commit, so for now, [firmware can be found here](https://github.com/ploopyco/qmk_firmware/tree/multitouch_experiment).
 
-The firmware hex file that ships with all Adepts is included in this repository as well, as `ploopyco_pavonis_default.uf2`.
+The firmware hex file that ships with all Trackpads is included in this repository as well, as `ploopyco_pavonis_default.uf2`.
+
+A version of the firmware that is used for debugging and development is included here, as `ploopyco_pavonis_debug.uf2`. Don't use this firmware unless you need to use the [Maxtouch Debug App](https://ploopyco.github.io/trackpad/appendices/debugapp/).
 
 ## Under what license is this released?
 

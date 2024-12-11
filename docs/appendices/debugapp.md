@@ -13,9 +13,14 @@ To alter them quickly and see the effects that the alterations have, [George Nor
 
 ## Debug firmware
 
-In order to use the debug app, you'll need to rebuild the Pavonis firmware, using the `debug` keymap instead of the `default` keymap.
+In order to use the debug app, you'll need to flash the `debug` firmware onto the Trackpad, available [here](https://github.com/ploopyco/trackpad/blob/main/ploopyco_pavonis_debug.uf2).
 
 If necessary, follow the guide in [Appendix D](programming.md) to put new firmware onto the Trackpad.
+
+
+## Putting the Ploopy Trackpad into bootloader mode while using the `debug` keymap firmware
+
+Putting the Ploopy Trackpad into bootloader mode while using the `debug` firmware is very easy. Just put all five fingers down on the trackpad surface at once! The computer should state that your Trackpad was disconnected, and that a mass storage device was just plugged in. Once this is done, you should be able to drag and drop files onto the Ploopy device, as if the board was a USB drive.
 
 
 ## How to use it, though?

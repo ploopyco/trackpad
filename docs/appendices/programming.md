@@ -35,31 +35,25 @@ Alternatively, you can invoke the Makefile directly with the following:
 
 For more details on building QMK firmware in general, see the [QMK firmware guide](https://docs.qmk.fm/#/newbs_building_firmware).
 
-## Putting the Ploopy Trackpad into bootloader mode
+## Putting the Ploopy device into bootloader mode
 
-Putting the Ploopy Trackpad into bootloader mode is very easy. Just put all five fingers down on the trackpad surface at once! The computer should state that your Trackpad was disconnected, and that a mass storage device was just plugged in. Once this is done, you should be able to drag and drop files onto the Ploopy device, as if the board was a USB drive.
+Putting the Ploopy device into bootloader mode is very simple and straightforward.
 
-While plugged in this way, the Ploopy device will accept new firmware.
-
-If you want to upload a new firmware file (a ".uf2" file, like "ploopy_trackpad_v42069" or something), just drag it into the folder, and it'll automatically install on the Ploopy device and restart itself.
-
-Whenever you want to put new firmware onto the Ploopy device, go through these steps again.
-
-**TIP**: If your firmware is in some kind of strange state and uploading new firmware isn't fixing it, try uploading [a flash nuke](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython#flash-resetting-uf2-3083182) to the Trackpad before flashing the new firmware. It wipes the memory of the Trackpad completely clean, which can help clear a few types of errors.
-
-## Putting the Ploopy device into bootloader mode if it's bricked
-
-Putting the Ploopy device into bootloader mode if it's bricked is a bit more involved, but still doable.
-
-1. Unplug it from your computer.
-2. Flip it over. Unscrew the bootloader cap.
-3. You should see two gold-covered holes exposed on the PCB.
+1. Unplug the device from your computer.
+2. Flip it over onto it's back. Unscrew the bootloader cap.
+3. You should see two gold-covered holes exposed on the PCB once the cap is removed.
 4. Get a paper clip (non-insulated, i.e. no plastic shit covering it) or a pair of tweezers, or some wire. Whatever you've got on hand that's metal.
 5. Stick the paper clip or tweezers into the holes. You're trying to form an electrical connection between the two holes.
 6. While you've got the two vias connected with your metal bridge, plug the Ploopy device into your computer.
 7. The computer should recognise that a mass storage device was just plugged in. Once this is done, you should be able to drag and drop files onto the Ploopy device, as if the board was a USB drive. Feel free to remove the tweezers or paperclip at this point.
 
 And that's it. While plugged in this way, the Ploopy device will accept new firmware.
+
+If you want to upload a new firmware file (a ".uf2" file, like "ploopy_trackpad_v42069" or something), just drag it into the folder, and it'll automatically install on the Ploopy device and restart itself.
+
+Whenever you want to put new firmware onto the Ploopy device, go through these steps again.
+
+**TIP**: If your firmware is in some kind of strange state and uploading new firmware isn't fixing it, try uploading [a flash nuke](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython#flash-resetting-uf2-3083182) to the Trackpad before flashing the new firmware. It wipes the memory of the Trackpad completely clean, which can help clear a few types of errors.
 
 ## And that's it!
 
