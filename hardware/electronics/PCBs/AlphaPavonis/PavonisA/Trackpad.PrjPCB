@@ -32,7 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-IsVirtualBomDocumentRemoved=1
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -193,6 +193,57 @@ GenerateClassCluster=0
 DocumentUniqueId=TJUNNGOI
 
 [Document9]
+DocumentPath=Trackpad_PCB.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=Trackpad_Stencil.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=TrackpadSolderStencil.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HXVHTAXJ
+
+[Document12]
 DocumentPath=..\..\..\PartLibraries\CapSense.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -209,7 +260,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ESWNRPSL
 
-[Document10]
+[Document13]
 DocumentPath=..\..\..\PartLibraries\CapSense.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -226,7 +277,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ECBHOYYV
 
-[Document11]
+[Document14]
 DocumentPath=..\..\..\PartLibraries\Chip_Passives.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -243,7 +294,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVDSYECA
 
-[Document12]
+[Document15]
 DocumentPath=..\..\..\PartLibraries\Chip_Passives.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -260,7 +311,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHEIRTBV
 
-[Document13]
+[Document16]
 DocumentPath=..\..\..\PartLibraries\Crystals.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -277,7 +328,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document17]
 DocumentPath=..\..\..\PartLibraries\Crystals.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -294,7 +345,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UXETFJHT
 
-[Document15]
+[Document18]
 DocumentPath=..\..\..\PartLibraries\Graphics.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -311,7 +362,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KARWOSMU
 
-[Document16]
+[Document19]
 DocumentPath=..\..\..\PartLibraries\Graphics.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -328,7 +379,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJDFLIKH
 
-[Document17]
+[Document20]
 DocumentPath=..\..\..\PartLibraries\MCUs.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -345,7 +396,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HNWMTEKE
 
-[Document18]
+[Document21]
 DocumentPath=..\..\..\PartLibraries\MCUs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -362,7 +413,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EOEADAFS
 
-[Document19]
+[Document22]
 DocumentPath=..\..\..\PartLibraries\Mechanical.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,9 +428,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VVFSAISW
+DocumentUniqueId=
 
-[Document20]
+[Document23]
 DocumentPath=..\..\..\PartLibraries\Mechanical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -396,7 +447,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OACQIOSY
 
-[Document21]
+[Document24]
 DocumentPath=..\..\..\PartLibraries\Memory.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -413,7 +464,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document25]
 DocumentPath=..\..\..\PartLibraries\Memory.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -430,7 +481,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PNKYPRLQ
 
-[Document23]
+[Document26]
 DocumentPath=..\..\..\PartLibraries\PowerSupply.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -447,7 +498,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document27]
 DocumentPath=..\..\..\PartLibraries\PowerSupply.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -464,7 +515,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CBEYLMJF
 
-[Document25]
+[Document28]
 DocumentPath=..\..\..\PartLibraries\Connectors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -481,7 +532,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KQRUKOUP
 
-[Document26]
+[Document29]
 DocumentPath=..\..\..\PartLibraries\Connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -498,7 +549,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JFWVNYIA
 
-[Document27]
+[Document30]
 DocumentPath=..\..\..\PartLibraries\LEDs.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -515,7 +566,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document31]
 DocumentPath=..\..\..\PartLibraries\LEDs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -532,7 +583,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QFHBURXU
 
-[Document29]
+[Document32]
 DocumentPath=..\..\..\PartLibraries\PCBFeatures.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -549,7 +600,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VLOLSROK
 
-[Document30]
+[Document33]
 DocumentPath=..\..\..\PartLibraries\PCBFeatures.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -566,7 +617,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=POKPGGFV
 
-[Document31]
+[Document34]
 DocumentPath=..\..\..\PartLibraries\Diodes.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -583,7 +634,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document35]
 DocumentPath=..\..\..\PartLibraries\Diodes.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -600,7 +651,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCWXTLDC
 
-[Document33]
+[Document36]
 DocumentPath=..\..\..\PartLibraries\Motors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -617,7 +668,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QDAJMDYU
 
-[Document34]
+[Document37]
 DocumentPath=..\..\..\PartLibraries\Motors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -634,7 +685,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XRFJKOIX
 
-[Document35]
+[Document38]
 DocumentPath=HapticFeedback.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -651,7 +702,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZHEDHDYC
 
-[Document36]
+[Document39]
 DocumentPath=..\..\..\PartLibraries\FETs.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -668,7 +719,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OPIWGAYI
 
-[Document37]
+[Document40]
 DocumentPath=..\..\..\PartLibraries\FETs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -685,14 +736,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BRJSFQSF
 
-[ProjectVariant1]
-UniqueID=60002113-9652-4A02-89F1-BC3C561C1413
-Description=BoM
-AllowFabrication=0
-ParameterCount=0
-VariationCount=1
-Variation1=Designator=REG.C.15|UniqueId=\RXDORYXU\OKJKRDGI|Kind=1|AlternatePart=
-ParamVariationCount=0
+[Document41]
+DocumentPath=TrackpadPanel.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IWWMIFEL
 
 [DeviceSheetFolder1]
 Path=D:\Repos\SojournLabs\electrical\PCBs\DeviceSheets\
@@ -2127,43 +2186,43 @@ MatchStrictly2=1
 PhysicalNamingFormat=$SheetDesignator.$ComponentPrefix.$ComponentIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\NDOGTZMR
-DocumentName0=HapticFeedback.SchDoc
+UniqueIDPath0=\RXDORYXU
+DocumentName0=Regulators.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=12
+Order0=8
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=
-DocumentName1=Pavonis.SchDoc
+UniqueIDPath1=\BUHOUAJX
+DocumentName1=Connectors.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=13
+Order1=2
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\RXDORYXU
-DocumentName2=Regulators.SchDoc
+UniqueIDPath2=\KPFJTNEE
+DocumentName2=MCU.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=8
+Order2=4
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\BUHOUAJX
-DocumentName3=Connectors.SchDoc
+UniqueIDPath3=\NDOGTZMR
+DocumentName3=HapticFeedback.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=2
+Order3=12
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\ROEMJLXA
-DocumentName4=TouchController.SchDoc
+UniqueIDPath4=
+DocumentName4=Trackpad.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=11
+Order4=13
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
@@ -2175,11 +2234,11 @@ Order5=5
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\KPFJTNEE
-DocumentName6=MCU.SchDoc
+UniqueIDPath6=\ROEMJLXA
+DocumentName6=TouchController.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=4
+Order6=11
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
