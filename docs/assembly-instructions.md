@@ -1,4 +1,5 @@
 
+
 # Ploopy Kit Assembly Instructions
 
 ## BEFORE YOU DO ANYTHING, READ THIS FIRST.
@@ -80,7 +81,6 @@ Note that some of these pictures were taken at different times, so they may show
 |:--:|
 | *Figure 3.3: Pressing tape into PCB* |
 
-
 ### Step 4
 
 - 💡 This step is meant to get you familiar with placing the PCB to the Front.
@@ -107,6 +107,15 @@ Note that some of these pictures were taken at different times, so they may show
 |:--:|
 | *Figure 4.3: PCB placed correctly, with PCB sitting flat and USB port lined up with hole* |
 
+
+### A Note About Steps 5 and 6
+
+- 💡 During Steps 5 and 6, you will permanently tape the PCB to the Front. The tape is very strong and extremely difficult to remove.
+- 💡 It's actually possible to skip Steps 5 and 6. If the PCB is inserted into the Trackpad, but not taped to the Front, you can more easily replace the Front later, if it wears out or breaks.
+- 💡 The tracking performance should still be excellent if the PCB is not taped to the Front.
+- 💡 We recommend that you read Steps 5 and 6, and then assemble the Trackpad **without taping the PCB to the Front**.
+- ➡️ **To proceed without taping the PCB to the Front:** repeat Step 4, but do not remove the PCB from the Front at the end of Step 4. Then, skip Steps 5 and 6.
+- 💡 If you find that the Trackpad is tracking poorly, then you must tape the PCB to the Front.
 
 
 ### Step 5
