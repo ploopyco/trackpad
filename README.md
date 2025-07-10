@@ -4,13 +4,16 @@
 
 By some stroke of luck, you've made your way here. The Ploopy Trackpad. Your life will never be the same.
 
-This repository contains all of the design and production files necessary to make a Ploopy Trackpad. We've also included some kick-ass documentation on how to get it made, assemble it, and program it [which you can find here](https://ploopyco.github.io/trackpad/).
+This repository contains all of the design and production files necessary to make a Ploopy Trackpad. We've also got some [kick-ass documentation](https://ploopyco.github.io/trackpad/) on how to:
+* [assemble it](https://ploopyco.github.io/trackpad/assembly-instructions/)
+* [program it](https://ploopyco.github.io/trackpad/appendices/programming/)
+* [build one from scratch](https://ploopyco.github.io/trackpad/appendices/pcbs/)
 
 What are you waiting for? Your new life awaits.
 
 ## QMK?!
 
-Kits bought from the [Ploopy store](https://ploopy.co/product-category/trackpad/) come with QMK and VIA preloaded. [Check out the documentation](https://ploopyco.github.io/trackpad/) for instructions on how to load new firmware onto your device. (It's super easy!)
+Kits bought from the [Ploopy store](https://ploopy.co/product-category/trackpad/) come with QMK and VIA preloaded. Check out the documentation for instructions on [how to load new firmware onto your device](https://ploopyco.github.io/trackpad/appendices/programming/). It's super easy!
 
 The firmware for the Trackpad hasn't been merged into QMK at the time of this commit, so for now, [firmware can be found here](https://github.com/ploopyco/qmk_firmware/tree/multitouch_experiment).
 
